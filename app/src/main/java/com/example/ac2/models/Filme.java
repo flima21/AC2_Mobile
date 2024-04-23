@@ -5,7 +5,7 @@ public class Filme {
     private String sinopse;
     private String diretor;
     private int ano;
-    private int imagems;
+    private String imagems;
 
     public String getTitulo() {
         return titulo;
@@ -39,15 +39,15 @@ public class Filme {
         this.ano = ano;
     }
 
-    public int getImagems() {
+    public String getImagems() {
         return imagems;
     }
 
-    public void setImagems(int imagems) {
+    public void setImagems(String imagems) {
         this.imagems = imagems;
     }
 
-    public Filme(String titulo, String sinopse, String diretor, int ano, int imagems) {
+    public Filme(String titulo, String sinopse, String diretor, int ano, String imagems) {
         this.titulo = titulo;
         this.sinopse = sinopse;
         this.diretor = diretor;
